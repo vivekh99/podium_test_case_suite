@@ -68,5 +68,3 @@ The test files website can be found at https://vivekh99.github.io/podium_test_ca
 
 "https://vivekh99.github.io/podium_test_case_suite/edgecases.html"
 
-The source code in this repo for these tests are provided to
-

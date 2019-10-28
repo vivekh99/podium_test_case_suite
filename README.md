@@ -48,7 +48,7 @@ the parenthesis of the `.get()` method located on line 26
 
 Personal Test Cases:
 ===============================
--These were personally made test cases and can be found in this repo
+-These were personally made test cases and can be found in this repo. Please look at source code for them for comments
 IMPORTANT - to run these test cases, you must change the range of the for loop in line 22
 from `for page in range(1, 6):` to `for page in range(1, 2):`
 
@@ -67,4 +67,6 @@ The test files website can be found at https://vivekh99.github.io/podium_test_ca
 "https://vivekh99.github.io/podium_test_case_suite/preset_words.html"
 
 "https://vivekh99.github.io/podium_test_case_suite/edgecases.html"
+
+The source code in this repo for these tests are provided to
 

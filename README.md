@@ -38,9 +38,23 @@ Test Cases:
         "https://www.dealerrater.com/dealer/Gene-Butman-Ford-review-18132/" + str(page) + "/?filter=ALL_REVIEWS"
 
         copy-paste the exact lines above (including the quotations) and paste in between
-        the parenthesis of the `.get()` method located on line 25
+        the parenthesis of the `.get()` method located on line 26
 
     -These were personally made test cases and can be found in this repo
-        IMPORTANT - 
+        IMPORTANT - to run these test cases, you must change the range of the for loop in line 22
+        from `for page in range(1, 6):` to `for page in range(1, 2):`
+        
+        you must also copy-paste the exact lines below (including the quotations) and 
+        paste in between
+        the parenthesis of the `.get()` method located on line 26
+        
         "https://vivekh99.github.io/podium_test_case_suite/index.html"
+        
+        "https://vivekh99.github.io/podium_test_case_suite/exclamation_in_header.html"
+        
+        "https://vivekh99.github.io/podium_test_case_suite/capitals.html"
+        
+        "https://vivekh99.github.io/podium_test_case_suite/preset_words.html"
+        
+        "https://vivekh99.github.io/podium_test_case_suite/edgecases.html"
 

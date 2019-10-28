@@ -33,7 +33,10 @@ in addition to the download of the bs4 library.
 
 Test Cases:
 ===================
--These test cases were ran by using real data off of dealerrater.com. The dealers used were:
+-These test cases were ran by using real data off of dealerrater.com.
+copy-paste the exact lines below (including the quotations) and paste in between
+the parenthesis of the `.get()` method located on line 26
+
 "https://www.dealerrater.com/dealer/Cueter-Chrysler-Jeep-Dodge-review-22324/page" + str(page) + "/?filter=ALL_REVIEWS"
 
 "https://www.dealerrater.com/dealer/Mike-Riehl-s-Roseville-Chrysler-Dodge-Jeep-Ram-review-27075/page" + str(page) + "/?filter=ALL_REVIEWS"
@@ -42,19 +45,18 @@ Test Cases:
 
 "https://www.dealerrater.com/dealer/Gene-Butman-Ford-review-18132/" + str(page) + "/?filter=ALL_REVIEWS"
 
-copy-paste the exact lines above (including the quotations) and paste in between
-the parenthesis of the `.get()` method located on line 26
+
 Personal Test Cases:
 ===============================
 -These were personally made test cases and can be found in this repo
 IMPORTANT - to run these test cases, you must change the range of the for loop in line 22
 from `for page in range(1, 6):` to `for page in range(1, 2):`
 
-you must also copy the exact lines below (including the quotations) and 
+You must also copy the exact lines (test cases) below (including the quotations) and 
 paste them in between
 the parenthesis of the `.get()` method located on line 26.
 You should paste one test (one line) in, run the file, then paste the next test (replacing the one you had pasted in previously) and run the script to run each test file.
-The test files website can be found at https://vivekh99.github.io/podium_test_case_suite/ 
+The test files website can be found at https://vivekh99.github.io/podium_test_case_suite/. Correct output for the test files can be found there as well.
 
 "https://vivekh99.github.io/podium_test_case_suite/index.html"
 

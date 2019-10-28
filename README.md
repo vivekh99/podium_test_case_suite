@@ -23,7 +23,9 @@ How to execute:
         `pip3 install beautifulsoup4`
     -pip is a command used to install python libraries
 
-    -If you want to run this code directly in VS Code, you will need to download openSSL which can be found here https://slproweb.com/products/Win32OpenSSL.html, in addition to the download of the bs4 library.
+    -If you want to run this code directly in VS Code, you will need to download
+    openSSL which can be found here https://slproweb.com/products/Win32OpenSSL.html,
+    in addition to the download of the bs4 library.
 
 Test Cases:
 ======================
@@ -36,9 +38,10 @@ Test Cases:
 
         "https://www.dealerrater.com/dealer/Gene-Butman-Ford-review-18132/" + str(page) + "/?filter=ALL_REVIEWS"
 
-        copy-paste the exact lines above (including the quotations) and paste in between the parenthesis of the `.get()` method located on line 25
+        copy-paste the exact lines above (including the quotations) and paste in between the parenthesis of the `.get()` method
+        located on line 25
 
     -These were personally made test cases
-        IMPORTANT
+        IMPORTANT -  copy-paste the exact URL's below (including the quotations) and paste in between the parenthesis of the `.get()` method located on line 25
         "https://vivekh99.github.io/podium_test_case_suite/index.html"
 

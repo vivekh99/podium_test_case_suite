@@ -10,9 +10,8 @@ Metrics to define positivity:
         Are there capital letters used (that are not the first character of a word)?
 
 External Libraries used:
-    BeautifulSoup4 (bs4)
-    csv
-    requests
+    BeautifulSoup4 (bs4),
+    requests,
     string
 
 How to execute:

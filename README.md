@@ -35,7 +35,7 @@ Test Cases:
 ===================
 -These test cases were ran by using real data off of dealerrater.com.
 copy-paste the exact lines below (including the quotations) and paste in between
-the parenthesis of the `.get()` method located on line 26
+the parenthesis of the `.get()` method located on line 25
 
 "https://www.dealerrater.com/dealer/Cueter-Chrysler-Jeep-Dodge-review-22324/page" + str(page) + "/?filter=ALL_REVIEWS"
 
@@ -49,12 +49,12 @@ the parenthesis of the `.get()` method located on line 26
 Personal Test Cases:
 ===============================
 -These were personally made test cases and can be found in this repo. Please look at source code for them for comments
-IMPORTANT - to run these test cases, you must change the range of the for loop in line 22
+IMPORTANT - to run these test cases, you must change the range of the for loop in line 21
 from `for page in range(1, 6):` to `for page in range(1, 2):`
 
 You must also copy the exact lines (test cases) below (including the quotations) and 
 paste them in between
-the parenthesis of the `.get()` method located on line 26.
+the parenthesis of the `.get()` method located on line 25.
 You should paste one test (one line) in, run the file, then paste the next test (replacing the one you had pasted in previously) and run the script to run each test file.
 The test files website can be found at https://vivekh99.github.io/podium_test_case_suite/. Correct output for the test files can be found there as well.
 

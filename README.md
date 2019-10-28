@@ -4,16 +4,16 @@ This classifier, written in Python, will search the first 5 pages of a dealershi
 
 Metrics to define positivity:
     Positive reviews were determined by 
-        -Is the dealer recommended in the review (this simulates the star rating given on the review)?
-        -Do the words in the review match a pre-selected list of words that are used to express positivity?
-        -What are the number of exclamation marks used in the review?
-        -Are there capital letters used (that are not the first character of a word)?
+        Is the dealer recommended in the review (this simulates the star rating given on the review)?
+        Do the words in the review match a pre-selected list of words that are used to express positivity?
+        What are the number of exclamation marks used in the review?
+        Are there capital letters used (that are not the first character of a word)?
 
 External Libraries used:
-    -BeautifulSoup4 (bs4)
-    -csv
-    -requests
-    -string
+    BeautifulSoup4 (bs4)
+    csv
+    requests
+    string
 
 How to execute:
     -This code can be executed in your machine's terminal by running 

@@ -10,11 +10,13 @@ Metrics to define positivity:
         Are there capital letters used (that are not the first character of a word)?
 
 External Libraries used:
+=========================
     BeautifulSoup4 (bs4),
     requests,
     string
 
 How to execute:
+===================
     -This code can be executed in your machine's terminal by running 
         `python3 podium_challenge.py`
     -However, before running, make sure to have installed the bs4 library using
@@ -24,6 +26,7 @@ How to execute:
     -If you want to run this code directly in VS Code, you will need to download openSSL which can be found here https://slproweb.com/products/Win32OpenSSL.html, in addition to the download of the bs4 library.
 
 Test Cases:
+======================
     -These test cases were ran by using real data off of dealerrater.com. The dealers used were:
         "https://www.dealerrater.com/dealer/Cueter-Chrysler-Jeep-Dodge-review-22324/page" + str(page) + "/?filter=ALL_REVIEWS"
 

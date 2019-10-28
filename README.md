@@ -17,13 +17,13 @@ External Libraries used:
 
 How to execute:
 ===================
-    -This code can be executed in your machine's terminal by running 
-        `python3 podium_challenge.py`
-    -However, before running, make sure to have installed the bs4 library using
-        `pip3 install beautifulsoup4`
-    -pip is a command used to install python libraries
+    This code can be executed in your machine's terminal by running 
+        python3 podium_challenge.py
+    However, before running, make sure to have installed the bs4 library using
+        pip3 install beautifulsoup4
+    pip is a command used to install python libraries
 
-    -If you want to run this code directly in VS Code, you will need to download
+    If you want to run this code directly in VS Code, you will need to download
     openSSL which can be found here https://slproweb.com/products/Win32OpenSSL.html,
     in addition to the download of the bs4 library.
 

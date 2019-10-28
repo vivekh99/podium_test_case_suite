@@ -18,12 +18,12 @@ for all_reviews in range(0, 50):
 #total review counter
 num_of_total_reviews = 0;
 #loops through 5 pages of the dealer's reviews, adding the review and associatined positive connotation value to the dictionary all_reviews_dict
-for page in range(1, 2):
+#change range below for personal test cases
+for page in range(1, 6):
 		
 	#copy-paste test cases from the README here within the parenthesis of .get(PASTE TEXT HERE)
 	#will get data from each page we intend to scrape
-	#https://www.dealerrater.com/dealer/McKaig-Chevrolet-Buick-A-Dealer-For-The-People-dealer-reviews-23685/page" + str(page) + "/?filter=ALL_REVIEWS
-	website = requests.get("https://vivekh99.github.io/podium_test_case_suite/edgecases.html");
+	website = requests.get("https://www.dealerrater.com/dealer/McKaig-Chevrolet-Buick-A-Dealer-For-The-People-dealer-reviews-23685/page" + str(page) + "/?filter=ALL_REVIEWS");
 	#parses html from website and sotres it in site_html
 	site_html = bs4.BeautifulSoup(website.text, 'html.parser');
 	#returns a list of elements that contain dealer recommendation "yes or "no" (len == 10)

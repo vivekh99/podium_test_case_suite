@@ -1,22 +1,40 @@
-# Backend Coding Assessment
+This classifier, written in Python, will search the first 5 pages of a dealership on dealerrater.com and return the first 3 reviews that the classifier determines to be overly positive based on the metrics defined below
 
-We really look for three things when it comes to the coding challenge: 
+Metrics to define positivity:
+    Positive reviews were determined by 
+        -Is the dealer recommended in the review (this simulates the star rating given on the review)?
+        -Do the words in the review match a pre-selected list of words that are used to express positivity?
+        -What are the number of exclamation marks used in the review?
+        -Are there capital letters used (that are not the first character of a word)?
 
-- 1 You follow good engineering practices
-- 2 Your code is well tested and documented
-- 3 You show thoughtful code organization
+External Libraries used:
+    -BeautifulSoup4 (bs4)
+    -csv
+    -requests
+    -string
 
-You can use any language you choose just be sure you include execution instructions, etc. Let me know if you have any questions.
+How to execute:
+    -This code can be executed in your machine's terminal by running 
+        `python3 podium_challenge.py`
+    -However, before running, make sure to have installed the bs4 library using
+        `pip3 install beautifulsoup4`
+    -pip is a command used to install python libraries
 
-##### Coding Challenge: “A Dealer For the People”
+    -If you want to run this code directly in VS Code, you will need to download openSSL which can be found here https://slproweb.com/products/Win32OpenSSL.html, in addition to the download of the bs4 library.
 
-The KGB has noticed a resurgence of overly excited reviews for a McKaig Chevrolet Buick, a dealership they have planted in the United States. In order to avoid attracting unwanted attention, you’ve been enlisted to scrape reviews for this dealership from DealerRater.com and uncover the top three worst offenders of these overly positive endorsements.
+Test Cases:
+    -These test cases were ran by using real data off of dealerrater.com. The dealers used were:
+        "https://www.dealerrater.com/dealer/Cueter-Chrysler-Jeep-Dodge-review-22324/page" + str(page) + "/?filter=ALL_REVIEWS"
 
-Your mission, should you choose to accept it, is to write a tool that:
+        "https://www.dealerrater.com/dealer/Mike-Riehl-s-Roseville-Chrysler-Dodge-Jeep-Ram-review-27075/page" + str(page) + "/?filter=ALL_REVIEWS"
 
-- 1 scrapes the first five pages of reviews
-- 2 identifies the top three most “overly positive” endorsements (using criteria of your choosing, documented in the README)
-- 3 outputs these three reviews to the console, in order of severity
+        "https://www.dealerrater.com/dealer/Fox-Hills-Chrysler-Jeep-review-106467/page" + str(page) + "/?filter=ALL_REVIEWS"
 
-Please include documentation on how to run your application along with how to run the test suite.
-# podium_test_case_suite
+        "https://www.dealerrater.com/dealer/Gene-Butman-Ford-review-18132/" + str(page) + "/?filter=ALL_REVIEWS"
+
+        copy-paste the exact lines above (including the quotations) and paste in between the parenthesis of the `.get()` method located on line 25
+
+    -These were personally made test cases
+        IMPORTANT
+        "https://vivekh99.github.io/podium_test_case_suite/index.html"
+
